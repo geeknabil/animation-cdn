@@ -1343,7 +1343,7 @@
                   this.loading.push("scene"),
                   (this.dom.container = this.el),
                   (this.dotTexture = new p.TextureLoader().load(
-                    "img/dots.png"
+                    "https://cdn.jsdelivr.net/gh/geeknabil/animation-cdn/img/dots.png"
                   )),
                   (this.isDotsOnly =
                     !!this.el.dataset.globeType &&
